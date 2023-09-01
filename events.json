@@ -3,7 +3,11 @@
         "id": 1,
         "name": "LaravelCon",
         "location": "San Francisco",
-        "date": "2023-10-15",
+         "days":[
+            {
+                "date": "2023-10-15",
+            }
+        ],
         "time": "09:00",
         "url": "https://laravelcon.com",
         "created_at": "2023-09-01 12:00:00",
@@ -13,7 +17,29 @@
         "id": 2,
         "name": "Laravel Meetup",
         "location": "Online",
+         "days":[
+            {
+                "date": "2023-09-20",
+            }
+        ],
         "date": "2023-09-20",
+        "time": "19:00",
+        "url": "https://laravel-meetup.com",
+        "created_at": "2023-09-01 12:00:00",
+        "updated_at": "2023-09-01 12:00:00"
+    },
+    {
+        "id": 2,
+        "name": "Laracon India",
+        "location": "Offline",
+        "days":[
+            {
+                "date": "2024-03-23",
+            },
+            {
+                "date": "2024-03-24",
+            }
+        ],
         "time": "19:00",
         "url": "https://laravel-meetup.com",
         "created_at": "2023-09-01 12:00:00",
